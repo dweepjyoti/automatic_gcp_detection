@@ -1,0 +1,21 @@
+{
+    "SONY ILCE-5100": {
+        "SensorWidth": 23.5,
+        "SensorHeight": 15.6
+    },
+
+    "DJI FC300X": {
+        "SensorWidth": 6.17,
+        "SensorHeight": 4.55
+    },
+
+    "DJI FC330": {
+        "SensorWidth": 6.17,
+        "SensorHeight": 4.55
+    },
+    
+    "DJI FC6310": {
+        "SensorWidth": 13.2,
+        "SensorHeight": 8.8
+    }
+}

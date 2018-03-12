@@ -1,0 +1,30 @@
+{
+	"BilateralFilter":{
+		"d":7, 
+		"SigmaColor":40,
+		"SigmaSpace":40,
+		"BorderType":2
+	},
+	
+	"Clahe":{
+		"ColorSpace":"BGR",
+		"ClipLimit":0.1,
+		"TileSize":[3,3]
+	},
+	
+	"ColorThreshold":{
+		"ColorSpace": "Grayscale",
+		"HistogramThreshold": {
+				"Method": "doane",
+				"WhiteLim": 35
+		}
+	},
+		
+	"DilateErode":{
+		"KernelSize":[3,3],
+		"DilationIteration": 1,
+		"ErosionIteration": 1
+	},
+
+	"Result": ["BilateralFilter", "Clahe", "ColorThreshold", "DilateErode"]
+}
